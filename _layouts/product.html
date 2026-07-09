@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="wrap product-hero">
+  <div>
+    {% if page.image %}
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }} bottle">
+    {% else %}
+      <div class="card-photo-placeholder" style="aspect-ratio:4/5;">Product photo coming soon<br>{{ page.title }}</div>
+    {% endif %}
+  </div>
+  <div>
+    <h1>{{ page.title }}</h1>
+    <p class="product-meta">{{ page.size }} &middot; {{ page.product_type }}</p>
+    <p><span class="price-tag">TT${{ page.price_numeric }}</span>{% if page.price_note %} <span class="product-meta">{{ page.price_note }}</span>{% endif %}</p>
+
+    {{ content }}
+
+    <p>{% include whatsapp-cta.html label=page.cta_label %}</p>
+
+    <div class="disclaimer-box">
+      This product is not intended to diagnose, cure, treat, or prevent any disease. It is not evaluated for children's use and no children's dosing is provided. Information here is for general wellness education, not medical advice. Speak with a qualified healthcare provider before starting any new wellness routine.
+    </div>
+  </div>
+</div>

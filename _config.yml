@@ -1,0 +1,58 @@
+title: Tawaret Hippo Herbals
+tagline: "Remember that the healer is in you"
+description: "Traditional herbal wellness products in Trinidad and Tobago. Chlorophyll water, castor oil, colloidal silver, kidney and liver flushes, and more. Order by WhatsApp."
+url: "https://tawarethippoherbals.github.io"
+baseurl: ""
+
+# Business facts used across schema and includes
+business:
+  name: "Tawaret Hippo Herbals"
+  phone_display: "868-264-5784"
+  phone_e164: "+18682645784"
+  whatsapp_link: "https://wa.me/18682645784"
+  whatsapp_text_ordering: "Hi Tawaret Hippo Herbals, I'd like to place an order."
+  area_served: "Trinidad and Tobago"
+  currency: "TTD"
+
+# Replace with your real published Google Form "embed" URL (Send > Embed <> > copy the src).
+# It should look like: https://docs.google.com/forms/d/e/XXXXXXX/viewform?embedded=true
+find_your_match_form_url: ""
+
+collections:
+  products:
+    output: true
+    permalink: /products/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: "product"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+sass:
+  style: compressed

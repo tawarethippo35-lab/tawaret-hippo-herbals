@@ -1,0 +1,6 @@
+<a
+  class="btn btn-whatsapp"
+  href="{{ site.business.whatsapp_link }}?text={{ site.business.whatsapp_text_ordering | url_encode }}"
+  target="_blank"
+  rel="noopener"
+>{% if include.label %}{{ include.label }}{% else %}Message us on WhatsApp{% endif %}</a>

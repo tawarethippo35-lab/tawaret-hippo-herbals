@@ -1,0 +1,12 @@
+# Real customer reviews go here. Do not add invented or placeholder reviews;
+# only add quotes actually given by real customers, with their permission.
+#
+# Format for each entry:
+# - name: "First name, last initial (e.g. Sarah M.)"
+#   quote: "The customer's words, kept as close to verbatim as possible."
+#   product: "Optional: which product they're referring to"
+#
+# Example (remove the leading # once you have a real review to add):
+# - name: "Sarah M."
+#   quote: "Quick WhatsApp replies and pickup was easy to arrange."
+#   product: "Magnesium Spray"

@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "{{ page.title }}",
+  "description": "{{ page.description | strip_html | strip_newlines }}",
+  "sku": "{{ page.sku }}",
+  {% if page.image %}"image": "{{ page.image | absolute_url }}",{% endif %}
+  "brand": {
+    "@type": "Brand",
+    "name": "{{ site.business.name }}"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "{{ page.url | absolute_url }}",
+    "priceCurrency": "{{ site.business.currency }}",
+    "price": "{{ page.price_numeric }}",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition"
+  }
+}
+</script>
