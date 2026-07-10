@@ -28,6 +28,7 @@
 <meta name="twitter:description" content="{{ page_description }}">
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+{% if page.sales_assistant %}<link rel="stylesheet" href="{{ '/assets/css/sales-assistant.css' | relative_url }}">{% endif %}
 <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}">
 
 {% include schema-localbusiness.html %}
