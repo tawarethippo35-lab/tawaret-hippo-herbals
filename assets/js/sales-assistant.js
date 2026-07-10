@@ -234,7 +234,7 @@
   function isValidWebhookUrl(value) {
     try {
       var parsed = new URL(String(value || '').trim());
-      return parsed.protocol === 'https:' || parsed.protocol === 'http:';
+      return parsed.protocol === 'https:';
     } catch (error) {
       return false;
     }
@@ -373,7 +373,9 @@
         return;
       }
       if (!isValidWebhookUrl(value)) {
-        announceWebhook('Webhook not entered correctly. Use a complete http or https URL.');
+        announceWebhook(/^http:\/\//i.test(value)
+          ? 'Webhook must use HTTPS. HTTP URLs are not accepted.'
+          : 'Webhook not entered correctly. Use a complete HTTPS URL.');
         webhookUrl.focus();
         return;
       }
