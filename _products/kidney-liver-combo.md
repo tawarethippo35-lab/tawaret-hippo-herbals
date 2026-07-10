@@ -13,3 +13,5 @@ The Kidney and Liver Flush Combo is for customers who want both the kidney and l
 This combo is chosen by customers who want to assist the body’s natural filtering systems, improve their wellness habits, and follow a guided plan with both products.
 
 The kidneys help with waste filtering and fluid balance. The liver assists with processing, digestion, metabolism, and internal balance.
+
+PDF instructions and 14-day blood type meal guide included.

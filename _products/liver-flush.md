@@ -13,3 +13,5 @@ The liver helps process what enters the body, assists with natural filtering, an
 Liver Flush is a 2 litre herbal wellness product used as an 8-day plan. It is chosen by customers who want to assist the body’s natural liver function, improve their wellness habits, and follow a structured herbal routine.
 
 This product works best with proper hydration, lighter meals, and consistency during the plan.
+
+PDF instructions included.

@@ -14,4 +14,6 @@ The kidneys help with waste filtering and fluid balance, while the liver assists
 
 This option works best with proper hydration, sensible meal choices, and consistency during the plan.
 
+PDF instructions and 14-day blood type meal guide included.
+
 Message us on WhatsApp if you are unsure whether to start with one product first or choose the full package.

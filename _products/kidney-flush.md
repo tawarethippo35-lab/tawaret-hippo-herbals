@@ -13,3 +13,5 @@ The kidneys help filter waste from the blood, assist with fluid balance, and hel
 Kidney Flush is a 2 litre herbal wellness product used as an 8-day plan. It is chosen by customers who want to assist the body’s natural filtering process, encourage better water intake habits, and follow a guided herbal routine instead of guessing what to take.
 
 This product works best with proper hydration and sensible meal choices during the plan.
+
+PDF instructions included.

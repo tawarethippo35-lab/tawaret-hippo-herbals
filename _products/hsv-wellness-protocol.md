@@ -17,7 +17,7 @@ Customers who ask about this bundle are often dealing with recurring intimate we
 
 The routine is designed to combine internal wellness habits, topical skin care, and body relaxation care in one guided plan.
 
-This bundle is not a cure and does not eliminate any virus. Proper medical testing and care from a qualified healthcare provider are encouraged alongside any wellness plan.
+Proper medical testing and care from a qualified healthcare provider are encouraged alongside any wellness plan.
 
 Bought separately, the three products total TT$950. As a bundle, the price is TT$800.
 
