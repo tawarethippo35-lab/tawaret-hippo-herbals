@@ -14,9 +14,23 @@ sales_assistant: true
     <h1>Tawaret Hippo Herbals Sales Assistant</h1>
     <p>Classify a customer inquiry and prepare a WhatsApp response for review. This tool does not send messages automatically.</p>
     <div class="sales-assistant__privacy" role="note">
-      Nothing entered here is saved in the browser or sent to an external service. Clear the form when you are finished.
+      Only the Make webhook URL is saved in this browser. Customer details, inquiries, health information, and prepared responses are never stored.
     </div>
   </header>
+
+  <section class="sales-assistant__connection" aria-labelledby="webhook-settings-title">
+    <div>
+      <p class="sales-assistant__label">Task 2A connection</p>
+      <h2 id="webhook-settings-title">Make Webhook Settings</h2>
+      <p>Paste a Make custom webhook URL. No webhook URL or API key is included in the website code.</p>
+    </div>
+    <div class="sales-assistant__field">
+      <label for="make-webhook-url">Make Custom Webhook URL</label>
+      <input id="make-webhook-url" name="makeWebhookUrl" type="url" inputmode="url" autocomplete="off" placeholder="Paste Make custom webhook URL">
+    </div>
+    <button class="btn btn-outline sales-assistant__save-webhook" id="save-webhook-url" type="button">Save Webhook URL</button>
+    <p class="sales-assistant__status" id="webhook-settings-status" aria-live="polite"></p>
+  </section>
 
   <form class="sales-assistant__form" id="sales-assistant-form" autocomplete="off">
     <div class="sales-assistant__grid">
@@ -98,6 +112,7 @@ sales_assistant: true
     <div class="sales-assistant__actions">
       <button class="btn btn-outline" id="copy-response" type="button">Copy Response</button>
       <button class="btn btn-outline" id="copy-lead-record" type="button">Copy Lead Record</button>
+      <button class="btn btn-outline" id="send-lead-sheet" type="button">Send to Lead Sheet</button>
       <button class="btn btn-whatsapp" id="open-whatsapp" type="button">Open WhatsApp</button>
       <button class="sales-assistant__clear" id="clear-form" type="button">Clear Form</button>
     </div>

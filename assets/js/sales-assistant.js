@@ -11,6 +11,7 @@
   ];
 
   var RECOMMENDATION_FORM_URL = 'https://tawarethippo35-lab.github.io/tawaret-hippo-herbals/find-your-match/';
+  var WEBHOOK_STORAGE_KEY = 'tawaretMakeWebhookUrl';
 
   var CATEGORY_RULES = {
     'Paid Consultation': [
@@ -230,11 +231,51 @@
     ].join('\n');
   }
 
+  function isValidWebhookUrl(value) {
+    try {
+      var parsed = new URL(String(value || '').trim());
+      return parsed.protocol === 'https:' || parsed.protocol === 'http:';
+    } catch (error) {
+      return false;
+    }
+  }
+
+  function buildLeadPayload(data) {
+    return {
+      received_at: data.receivedAt,
+      customer_name: data.customerName,
+      whatsapp_number: data.whatsappNumber,
+      source: data.leadSource,
+      inquiry_text: data.inquiry,
+      classification: data.classification,
+      confidence: data.confidence,
+      product_or_topic: data.topic,
+      suggested_response: data.response,
+      follow_up_period: data.followUp,
+      requires_human_review: data.humanReviewRequired === 'Yes',
+      status: 'Response Prepared'
+    };
+  }
+
+  function submitLead(webhookUrl, payload, fetchImplementation) {
+    return fetchImplementation(webhookUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(function (response) {
+      if (!response.ok) throw new Error('Webhook request failed with status ' + response.status + '.');
+      return response;
+    });
+  }
+
   global.TawaretSalesAssistant = {
     classifyInquiry: classifyInquiry,
     cleanWhatsAppNumber: cleanWhatsAppNumber,
     buildWhatsAppUrl: buildWhatsAppUrl,
-    formatLeadRecord: formatLeadRecord
+    formatLeadRecord: formatLeadRecord,
+    isValidWebhookUrl: isValidWebhookUrl,
+    buildLeadPayload: buildLeadPayload,
+    submitLead: submitLead
   };
 
   if (typeof document === 'undefined') return;
@@ -247,7 +288,12 @@
     var results = document.getElementById('sales-assistant-results');
     var preparedResponse = document.getElementById('prepared-response');
     var status = document.getElementById('sales-assistant-status');
+    var webhookUrl = document.getElementById('make-webhook-url');
+    var webhookStatus = document.getElementById('webhook-settings-status');
+    var sendLeadButton = document.getElementById('send-lead-sheet');
     var latestResult = null;
+
+    webhookUrl.value = global.localStorage.getItem(WEBHOOK_STORAGE_KEY) || '';
 
     function setText(id, value) {
       var element = document.getElementById(id);
@@ -265,6 +311,10 @@
 
     function announce(message) {
       status.textContent = message;
+    }
+
+    function announceWebhook(message) {
+      webhookStatus.textContent = message;
     }
 
     function copyText(text, successMessage) {
@@ -313,6 +363,61 @@
       results.hidden = false;
       announce('Response prepared. Review it before copying or opening WhatsApp.');
       results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    document.getElementById('save-webhook-url').addEventListener('click', function () {
+      var value = webhookUrl.value.trim();
+      if (!value) {
+        announceWebhook('Webhook not entered. Paste a Make custom webhook URL before saving.');
+        webhookUrl.focus();
+        return;
+      }
+      if (!isValidWebhookUrl(value)) {
+        announceWebhook('Webhook not entered correctly. Use a complete http or https URL.');
+        webhookUrl.focus();
+        return;
+      }
+      global.localStorage.setItem(WEBHOOK_STORAGE_KEY, value);
+      announceWebhook('Webhook URL saved in this browser.');
+    });
+
+    sendLeadButton.addEventListener('click', function () {
+      if (!latestResult) {
+        announce('Prepare a response before sending it to the lead sheet.');
+        return;
+      }
+
+      var savedWebhookUrl = global.localStorage.getItem(WEBHOOK_STORAGE_KEY) || '';
+      if (!savedWebhookUrl) {
+        announce('Webhook not entered. Save a Make custom webhook URL before sending.');
+        webhookUrl.focus();
+        return;
+      }
+
+      var data = getFormData();
+      var payload = buildLeadPayload({
+        receivedAt: new Date().toISOString(),
+        customerName: data.customerName,
+        whatsappNumber: data.whatsappNumber,
+        leadSource: data.leadSource,
+        inquiry: data.inquiry,
+        classification: latestResult.classification,
+        confidence: latestResult.confidence,
+        topic: latestResult.topic,
+        response: preparedResponse.value,
+        followUp: latestResult.followUp,
+        humanReviewRequired: latestResult.humanReviewRequired
+      });
+
+      sendLeadButton.disabled = true;
+      announce('Sending to lead sheet...');
+      submitLead(savedWebhookUrl, payload, global.fetch.bind(global)).then(function () {
+        announce('Lead submitted successfully.');
+      }).catch(function () {
+        announce('Lead submission failed. Check the webhook URL and try again.');
+      }).then(function () {
+        sendLeadButton.disabled = false;
+      });
     });
 
     document.getElementById('copy-response').addEventListener('click', function () {

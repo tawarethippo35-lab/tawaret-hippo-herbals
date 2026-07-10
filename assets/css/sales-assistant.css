@@ -4,6 +4,7 @@
 }
 
 .sales-assistant__intro,
+.sales-assistant__connection,
 .sales-assistant__form,
 .sales-assistant__results {
   max-width: 860px;
@@ -43,6 +44,7 @@
 }
 
 .sales-assistant__form,
+.sales-assistant__connection,
 .sales-assistant__results {
   margin-top: 1.5rem;
   padding: 1.25rem;
@@ -50,6 +52,24 @@
   border-radius: 14px;
   background: #fff;
   box-shadow: 0 8px 24px rgba(35, 35, 35, 0.06);
+}
+
+.sales-assistant__connection h2 {
+  margin: 0.1rem 0 0.35rem;
+  color: var(--deep-green);
+  font-size: 1.25rem;
+}
+
+.sales-assistant__connection > div:first-child > p:last-child {
+  margin: 0 0 1rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.sales-assistant__save-webhook {
+  width: 100%;
+  margin-top: 0.75rem;
+  cursor: pointer;
 }
 
 .sales-assistant__grid,
@@ -183,6 +203,7 @@
 
 @media (min-width: 700px) {
   .sales-assistant__form,
+  .sales-assistant__connection,
   .sales-assistant__results { padding: 1.5rem; }
 
   .sales-assistant__grid,
@@ -195,5 +216,5 @@
 }
 
 @media (min-width: 900px) {
-  .sales-assistant__actions { grid-template-columns: repeat(4, 1fr); }
+  .sales-assistant__actions { grid-template-columns: repeat(5, 1fr); }
 }
