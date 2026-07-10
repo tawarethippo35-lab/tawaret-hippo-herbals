@@ -44,7 +44,7 @@ permalink: /
 <section class="wrap">
   <div class="card">
     <h2 class="section-title">WhatsApp 1-on-1 Consultation</h2>
-    <p class="price-tag">TT$250</p>
+    <p class="price-tag">Consultation Fee: TT$250</p>
     <p>Need personal guidance before choosing a product? Book a WhatsApp 1-on-1 consultation with Tawaret Hippo Herbals.</p>
     <p>After payment is confirmed, you will receive the correct consultation intake form. Once the form is completed, your consultation time will be arranged by WhatsApp.</p>
     <p>Best for customers who want personal guidance with product selection, wellness routines, or choosing where to start.</p>
