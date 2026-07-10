@@ -8,6 +8,8 @@ price_numeric: 400
 image: "/assets/images/products/colloidal-silver.jpg"
 ---
 
-Colloidal silver is a traditional wellness product that some people include as part of a general wellness routine. This solution is tested at 25 PPM, made of small, evenly dispersed silver particles.
+Colloidal Silver Solution is a traditional wellness product tested at 25 PPM.
 
-Use according to the guidance provided with your order. Keep out of reach of children. Store at room temperature, away from sunlight.
+Customers commonly ask about colloidal silver for immune wellness, skin concerns, intimate wellness routines, mouth and throat care, and general body defense. It is often chosen by customers who prefer a simple traditional wellness product to keep on hand.
+
+Keep out of reach of children. Store at room temperature, away from sunlight.

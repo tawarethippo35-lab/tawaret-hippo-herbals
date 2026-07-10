@@ -9,9 +9,14 @@ price_note: "for 10 bottles (TT$760 for 20)"
 image: "/assets/images/products/daily-balance-tonic-cranberry.jpg"
 ---
 
-A prebiotic sparkling drink in cranberry flavor, part of a general daily wellness routine. Sold by the case.
+Daily Balance Tonic in Cranberry is a prebiotic drink sold by the case.
 
-- 10 bottles: TT$400
-- 20 bottles: TT$760
+Customers commonly choose Daily Balance Tonic for digestive balance, gut wellness, better regularity, less heaviness after meals, and a simple daily drink that fits into their wellness habits.
 
-Message us on WhatsApp to order either size.
+Best used chilled. This option is good for customers who want a flavorful daily prebiotic drink without having to prepare anything.
+
+Available options:
+10 bottles: TT$400
+20 bottles: TT$760
+
+Message us on WhatsApp to confirm flavor availability before ordering.

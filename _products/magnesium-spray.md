@@ -8,6 +8,8 @@ price_numeric: 275
 image: "/assets/images/products/magnesium-spray.jpg"
 ---
 
-A topical body and bath spray made with pure Zechstein magnesium and distilled water. Many people include a magnesium spray as part of an evening or after-activity body care routine.
+Magnesium Spray is a topical body care spray made for transdermal absorption, meaning it is applied to the skin as part of a body care routine.
 
-For external use only.
+Customers have reported using magnesium spray for relaxation, better sleep quality, better fluid circulation, muscle comfort, pain, and inflammation. Many prefer using it in the evening, after bathing, after a long workday, or after physical activity.
+
+Spray onto the desired area and allow it to absorb. Avoid the eyes and freshly shaved or broken skin. If tingling occurs, this may happen with topical magnesium use, especially for sensitive skin.

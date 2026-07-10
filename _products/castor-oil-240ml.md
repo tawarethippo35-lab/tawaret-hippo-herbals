@@ -8,6 +8,10 @@ price_numeric: 150
 image: "/assets/images/products/castor-oil-240ml.jpg"
 ---
 
-Castor oil has long been used externally as part of traditional body care routines, including hair and skin care. This 240 ml bottle is a good size for trying it as part of your routine.
+Castor Oil is a traditional body care and wellness oil used by both women and men.
 
-For external use only.
+Customers commonly use castor oil for body massage, sore muscles, circulation care, hair and scalp care, skin care, and traditional cleansing routines. Many women also use castor oil as part of their womb, abdomen, and lower belly self-care practices.
+
+This is a hexane-free, food-grade castor oil. Do not guess internal use. Message us on WhatsApp for guidance before using it internally, especially if pregnant, breastfeeding, taking medication, or managing a health condition.
+
+Store in a cool, dry place and keep bottle tightly closed when not in use.

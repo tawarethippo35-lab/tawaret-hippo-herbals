@@ -8,4 +8,10 @@ price_numeric: 560
 image: "/assets/images/products/kidney-liver-package.jpg"
 ---
 
-Kidney and Liver Flush Package, 2 litres. Message us on WhatsApp for full details.
+The Kidney and Liver Flush Package is for customers who want to assist both major filtering systems in one guided wellness plan.
+
+The kidneys help with waste filtering and fluid balance, while the liver assists with processing, digestion, metabolism, and internal balance. This package is chosen by customers who want a more complete herbal routine instead of choosing one product at a time.
+
+This option works best with proper hydration, sensible meal choices, and consistency during the plan.
+
+Message us on WhatsApp if you are unsure whether to start with one product first or choose the full package.

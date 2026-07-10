@@ -8,6 +8,8 @@ price_numeric: 275
 image: "/assets/images/products/kidney-flush.jpg"
 ---
 
-Kidney Flush is a herbal wellness product designed to be used as an 8-day routine. Each bottle is 2 litres.
+The kidneys help filter waste from the blood, assist with fluid balance, and help the body maintain proper internal balance.
 
-Use according to the guidance provided with your order.
+Kidney Flush is a 2 litre herbal wellness product used as an 8-day plan. It is chosen by customers who want to assist the body’s natural filtering process, encourage better water intake habits, and follow a guided herbal routine instead of guessing what to take.
+
+This product works best with proper hydration and sensible meal choices during the plan.

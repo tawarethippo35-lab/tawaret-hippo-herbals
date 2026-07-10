@@ -9,16 +9,16 @@ image: "/assets/images/products/hsv-wellness-protocol.jpg"
 cta_label: "Message us to arrange your order"
 ---
 
-A wellness bundle for clients dealing with recurring intimate wellness concerns, bringing together three products used as one routine:
+The HSV Wellness Protocol is a 3-product bundle created for customers who want a more structured intimate wellness routine.
 
-- Colloidal Silver Solution, 25 PPM
-- Healing Oil
-- Magnesium Spray
+This bundle includes Colloidal Silver Solution, Healing Oil, and Magnesium Spray, along with digital instructions sent by WhatsApp after purchase.
 
-Two digital bonuses are included and delivered by WhatsApp after your order is placed: a Product Instructions Guide and a 14-Day Blood Type Meal Prep guide.
+Customers who ask about this bundle are often dealing with recurring intimate wellness concerns, skin discomfort, itching, irritation, stress around flare-up timing, body confidence, and the need for a clear routine instead of guessing what to use.
 
-This bundle is part of a general viral wellness and immune and reproductive wellness routine. It is not a cure, and no product in this bundle eliminates any virus. We encourage proper medical testing and ongoing care from a qualified healthcare provider alongside any wellness routine.
+The routine is designed to combine internal wellness habits, topical skin care, and body relaxation care in one guided plan.
 
-Bought separately, these three products total TT$950. As a bundle, the price is TT$800.
+This bundle is not a cure and does not eliminate any virus. Proper medical testing and care from a qualified healthcare provider are encouraged alongside any wellness plan.
 
-**Ordering:** a deposit secures your order with a 7 to 14 day completion window. Products are held until full payment is received. A missed completion window converts your deposit to credit at standalone pricing rather than the bundle rate. Message us on WhatsApp to arrange your deposit and order.
+Bought separately, the three products total TT$950. As a bundle, the price is TT$800.
+
+Message us on WhatsApp to confirm availability and arrange your order.

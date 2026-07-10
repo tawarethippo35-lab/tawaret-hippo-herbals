@@ -8,4 +8,8 @@ price_numeric: 700
 image: "/assets/images/products/kidney-liver-combo.jpg"
 ---
 
-Kidney and Liver Flush Combo, 2 litres. Message us on WhatsApp for full details.
+The Kidney and Liver Flush Combo is for customers who want both the kidney and liver products together as one structured wellness option.
+
+This combo is chosen by customers who want to assist the body’s natural filtering systems, improve their wellness habits, and follow a guided plan with both products.
+
+The kidneys help with waste filtering and fluid balance. The liver assists with processing, digestion, metabolism, and internal balance.

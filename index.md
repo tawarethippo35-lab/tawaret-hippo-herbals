@@ -68,8 +68,8 @@ permalink: /
       <p>We'll confirm product, price, and pickup details with you directly over WhatsApp.</p>
     </div>
     <div class="card">
-      <h3>3. Pickup or TTPost</h3>
-      <p>Collect by pickup, or ask about TTPost delivery if pickup isn't possible for you.</p>
+      <h3>3. Pickup or Aranguez handoff</h3>
+      <p>Free pickup is available in Morvant by appointment only. Free delivery to Extra Foods, Aranguez is available for a limited time only.</p>
     </div>
   </div>
 </section>
