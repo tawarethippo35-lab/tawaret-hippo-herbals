@@ -36,9 +36,25 @@ permalink: /
 </section>
 
 <section class="wrap">
-  <h2 class="section-title">Not sure where to start?</h2>
-  <p class="section-sub">Tell us what wellness concern brought you here, and we'll follow up personally on WhatsApp with a recommendation suited to you.</p>
-  <a class="btn btn-whatsapp" href="{{ '/find-your-match/' | relative_url }}">Find your match</a>
+  <h2 class="section-title">Not sure what to choose?</h2>
+  <p class="section-sub">Tell us what brought you here, and we'll follow up personally on WhatsApp with a product recommendation suited to you.</p>
+  <a class="btn btn-whatsapp" href="{{ '/find-your-match/' | relative_url }}">Get a Product Recommendation</a>
+</section>
+
+<section class="wrap">
+  <div class="card">
+    <h2 class="section-title">WhatsApp 1-on-1 Consultation</h2>
+    <p class="price-tag">TT$250</p>
+    <p>Need personal guidance before choosing a product? Book a WhatsApp 1-on-1 consultation with Tawaret Hippo Herbals.</p>
+    <p>After payment is confirmed, you will receive the correct consultation intake form. Once the form is completed, your consultation time will be arranged by WhatsApp.</p>
+    <p>Best for customers who want personal guidance with product selection, wellness routines, or choosing where to start.</p>
+    <a
+      class="btn btn-whatsapp"
+      href="{{ site.business.whatsapp_link }}?text={{ 'Hi Tawaret Hippo Herbals, I would like to book a WhatsApp 1-on-1 consultation.' | url_encode }}"
+      target="_blank"
+      rel="noopener"
+    >Book a WhatsApp Consultation</a>
+  </div>
 </section>
 
 <section class="wrap">

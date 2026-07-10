@@ -23,7 +23,7 @@ Then open `http://localhost:4000`.
 
 ## Before launch, still needed from you
 
-- **Find Your Match form** — set `find_your_match_form_url` in `_config.yml` to your published Google Form's embed URL (Google Forms → Send → the `<>` embed icon → copy the `src` URL). Until set, that page shows a WhatsApp fallback instead of a broken form.
+- **Product recommendation form** — set `find_your_match_form_url` in `_config.yml` to your published Google Form's embed URL (Google Forms → Send → the `<>` embed icon → copy the `src` URL). Until set, that page shows a WhatsApp fallback instead of a broken form.
 - **Real reviews** — add them to `_data/testimonials.yml` following the format shown in that file's comments. No reviews are shown until real ones are added; nothing on the Reviews page is invented.
 
 ## Content structure
@@ -53,6 +53,6 @@ Your `tawaret-product-catalog` reference material has a standing rule that keeps
 - Keep product copy in general wellness language and avoid disease claims.
 - No children's dosing guidance anywhere.
 - Free pickup is available in Morvant by appointment only. Free delivery to Extra Foods, Aranguez is available for a limited time only.
-- The only direct call-to-action on the site is WhatsApp (`wa.me` click-to-chat links). The Find Your Match form is a lead intake, not a purchase action, and it explicitly tells visitors the reply comes later by WhatsApp.
+- The only direct call-to-action on the site is WhatsApp (`wa.me` click-to-chat links). The product recommendation form is a lead intake, not a purchase action, and it explicitly tells visitors the reply comes later by WhatsApp.
 
 Keep new content consistent with these rules, and re-check pricing against your product catalog before publishing changes, since prices change.
