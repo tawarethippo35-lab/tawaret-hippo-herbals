@@ -1,0 +1,108 @@
+---
+layout: default
+title: "Internal Sales Assistant"
+description: "Internal Tawaret Hippo Herbals inquiry classification and response preparation tool."
+permalink: /sales-assistant/
+noindex: true
+sitemap: false
+sales_assistant: true
+---
+
+<section class="sales-assistant wrap" data-sales-assistant>
+  <header class="sales-assistant__intro">
+    <p class="sales-assistant__label">Internal sales tool</p>
+    <h1>Tawaret Hippo Herbals Sales Assistant</h1>
+    <p>Classify a customer inquiry and prepare a WhatsApp response for review. This tool does not send messages automatically.</p>
+    <div class="sales-assistant__privacy" role="note">
+      Nothing entered here is saved in the browser or sent to an external service. Clear the form when you are finished.
+    </div>
+  </header>
+
+  <form class="sales-assistant__form" id="sales-assistant-form" autocomplete="off">
+    <div class="sales-assistant__grid">
+      <div class="sales-assistant__field">
+        <label for="customer-name">Customer Name</label>
+        <input id="customer-name" name="customerName" type="text" autocomplete="off">
+      </div>
+
+      <div class="sales-assistant__field">
+        <label for="whatsapp-number">WhatsApp Number</label>
+        <input id="whatsapp-number" name="whatsappNumber" type="tel" inputmode="tel" autocomplete="off" placeholder="868-XXX-XXXX">
+      </div>
+
+      <div class="sales-assistant__field sales-assistant__field--wide">
+        <label for="lead-source">Lead Source</label>
+        <select id="lead-source" name="leadSource">
+          <option value="WhatsApp">WhatsApp</option>
+          <option value="Website">Website</option>
+          <option value="Product Recommendation Form">Product Recommendation Form</option>
+          <option value="Instagram">Instagram</option>
+          <option value="TikTok">TikTok</option>
+          <option value="WhatsApp Status">WhatsApp Status</option>
+          <option value="Referral">Referral</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <div class="sales-assistant__field sales-assistant__field--wide">
+        <label for="customer-inquiry">Customer Inquiry</label>
+        <textarea id="customer-inquiry" name="customerInquiry" rows="7" required placeholder="Paste the customer's inquiry here."></textarea>
+      </div>
+    </div>
+
+    <button class="btn btn-whatsapp sales-assistant__classify" type="submit">Classify and Prepare Response</button>
+  </form>
+
+  <section class="sales-assistant__results" id="sales-assistant-results" aria-labelledby="sales-assistant-results-title" hidden>
+    <div class="sales-assistant__results-heading">
+      <div>
+        <p class="sales-assistant__label">Prepared for human review</p>
+        <h2 id="sales-assistant-results-title">Inquiry Result</h2>
+      </div>
+      <span class="sales-assistant__badge" id="result-classification">General Question</span>
+    </div>
+
+    <dl class="sales-assistant__details">
+      <div>
+        <dt>Classification</dt>
+        <dd id="detail-classification"></dd>
+      </div>
+      <div>
+        <dt>Confidence Score</dt>
+        <dd id="detail-confidence"></dd>
+      </div>
+      <div>
+        <dt>Product or Topic Detected</dt>
+        <dd id="detail-topic"></dd>
+      </div>
+      <div>
+        <dt>Human Review Required</dt>
+        <dd id="detail-human-review"></dd>
+      </div>
+      <div class="sales-assistant__detail-wide">
+        <dt>Classification Reason</dt>
+        <dd id="detail-reason"></dd>
+      </div>
+      <div class="sales-assistant__detail-wide">
+        <dt>Follow-up Period</dt>
+        <dd id="detail-follow-up"></dd>
+      </div>
+    </dl>
+
+    <div class="sales-assistant__field">
+      <label for="prepared-response">Prepared WhatsApp Response</label>
+      <textarea id="prepared-response" rows="10"></textarea>
+      <p class="sales-assistant__hint">Review and edit this response before copying it or opening WhatsApp.</p>
+    </div>
+
+    <div class="sales-assistant__actions">
+      <button class="btn btn-outline" id="copy-response" type="button">Copy Response</button>
+      <button class="btn btn-outline" id="copy-lead-record" type="button">Copy Lead Record</button>
+      <button class="btn btn-whatsapp" id="open-whatsapp" type="button">Open WhatsApp</button>
+      <button class="sales-assistant__clear" id="clear-form" type="button">Clear Form</button>
+    </div>
+    <p class="sales-assistant__status" id="sales-assistant-status" aria-live="polite"></p>
+  </section>
+</section>
+
+<script src="{{ '/assets/js/sales-assistant.js' | relative_url }}" defer></script>
