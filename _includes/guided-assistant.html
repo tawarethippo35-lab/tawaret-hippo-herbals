@@ -1,0 +1,75 @@
+<div class="guided-assistant" data-guided-assistant>
+  <button
+    class="guided-assistant__toggle"
+    type="button"
+    aria-expanded="false"
+    aria-controls="guided-assistant-panel"
+  >
+    <span aria-hidden="true">?</span>
+    <span>Need help?</span>
+  </button>
+
+  <section
+    class="guided-assistant__panel"
+    id="guided-assistant-panel"
+    aria-labelledby="guided-assistant-title"
+    hidden
+  >
+    <div class="guided-assistant__header">
+      <div>
+        <p class="guided-assistant__eyebrow">Tawaret Hippo Herbals</p>
+        <h2 id="guided-assistant-title">How can we help?</h2>
+      </div>
+      <button class="guided-assistant__close" type="button" aria-label="Close guided assistant">&times;</button>
+    </div>
+
+    <p class="guided-assistant__intro">Choose an option and we'll point you in the right direction.</p>
+
+    <div class="guided-assistant__options">
+      <a href="{{ '/find-your-match/' | relative_url }}">Help me choose a product</a>
+      <a href="{{ site.business.whatsapp_link }}?text={{ 'Hi Tawaret Hippo Herbals, I would like to place an order.' | url_encode }}" target="_blank" rel="noopener">Place an order</a>
+      <a href="{{ site.business.whatsapp_link }}?text={{ 'Hi Tawaret Hippo Herbals, I would like to re-order a product.' | url_encode }}" target="_blank" rel="noopener">Re-order</a>
+      <a href="{{ site.business.whatsapp_link }}?text={{ 'Hi Tawaret Hippo Herbals, I have a question about pickup.' | url_encode }}" target="_blank" rel="noopener">Ask about pickup</a>
+      <a href="{{ site.business.whatsapp_link }}?text={{ 'Hi Tawaret Hippo Herbals, I have a brief general question.' | url_encode }}" target="_blank" rel="noopener">Ask a brief general question</a>
+      <a class="guided-assistant__consultation" href="{{ site.business.whatsapp_link }}?text={{ 'Hi Tawaret Hippo Herbals, I would like to book the TT$250 WhatsApp 1-on-1 Consultation.' | url_encode }}" target="_blank" rel="noopener">Book a WhatsApp consultation</a>
+    </div>
+
+    <p class="guided-assistant__note">
+      General WhatsApp chat is for orders, pickup, availability, re-orders, and brief questions only.
+      Personal wellness guidance requires the paid WhatsApp 1-on-1 Consultation at TT$250.
+    </p>
+  </section>
+</div>
+
+<script>
+  (function () {
+    var assistant = document.querySelector('[data-guided-assistant]');
+    if (!assistant) return;
+
+    var toggle = assistant.querySelector('.guided-assistant__toggle');
+    var panel = assistant.querySelector('.guided-assistant__panel');
+    var close = assistant.querySelector('.guided-assistant__close');
+    if (!toggle || !panel || !close) return;
+
+    function setOpen(isOpen) {
+      panel.hidden = !isOpen;
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      if (isOpen) close.focus();
+      else toggle.focus();
+    }
+
+    toggle.addEventListener('click', function () {
+      setOpen(toggle.getAttribute('aria-expanded') !== 'true');
+    });
+
+    close.addEventListener('click', function () {
+      setOpen(false);
+    });
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+        setOpen(false);
+      }
+    });
+  })();
+</script>
