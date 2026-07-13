@@ -2,10 +2,7 @@
   <div class="wrap">
     <a class="brand" href="{{ '/' | relative_url }}">
       <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.business.name }} logo">
-      <span>
-        Tawaret Hippo Herbals
-        <small>{{ site.tagline }}</small>
-      </span>
+      <span>Tawaret Hippo Herbals<small>{{ site.tagline }}</small></span>
     </a>
     <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
   </div>
@@ -16,19 +13,17 @@
       <a href="{{ '/blog/' | relative_url }}">Blog</a>
       <a href="{{ '/find-your-match/' | relative_url }}">Product Recommendation</a>
       <a href="{{ '/faq/' | relative_url }}">FAQ</a>
-      <a href="{{ '/reviews/' | relative_url }}">Reviews</a>
     </div>
   </nav>
 </header>
-
 <script>
-  (function () {
-    var toggle = document.getElementById('nav-toggle');
-    var nav = document.getElementById('site-nav');
-    if (!toggle || !nav) return;
-    toggle.addEventListener('click', function () {
-      var isOpen = nav.classList.toggle('open');
-      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-    });
-  })();
+(function () {
+  var toggle = document.getElementById('nav-toggle');
+  var nav = document.getElementById('site-nav');
+  if (!toggle || !nav) return;
+  toggle.addEventListener('click', function () {
+    var isOpen = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+})();
 </script>

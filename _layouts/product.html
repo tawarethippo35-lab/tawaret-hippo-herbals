@@ -4,7 +4,9 @@ layout: default
 <div class="wrap product-hero">
   <div>
     {% if page.image %}
-      <img src="{{ page.image | relative_url }}" alt="{{ page.title }} bottle">
+      <a href="{{ page.image | relative_url }}" aria-label="View larger image of {{ page.title }}">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.title }} bottle" loading="eager">
+      </a>
     {% else %}
       <div class="card-photo-placeholder" style="aspect-ratio:4/5;">Product photo coming soon<br>{{ page.title }}</div>
     {% endif %}
@@ -14,9 +16,9 @@ layout: default
     <p class="product-meta">{{ page.size }} &middot; {{ page.product_type }}</p>
     {% include product-price.html product=page %}
     <p class="product-meta"><strong>{{ page.availability }}</strong> &middot; Prepayment secures your order. Pickup is arranged when the order is ready.</p>
-
     {{ content }}
-
-    <p>{% include whatsapp-cta.html label=page.cta_label %}</p>
+    {% assign order_price = page.preorder_price_numeric | default: page.price_numeric %}
+    {% capture product_order_message %}Hi Tawaret Hippo Herbals, I would like to pre-order {{ page.title }}, {{ page.size }}, listed at TT${{ order_price }}.{% endcapture %}
+    <p>{% include whatsapp-cta.html label=page.cta_label message=product_order_message product_name=page.title product_size=page.size promo_price=page.preorder_price_numeric regular_price=page.price_numeric promo_valid_until=page.preorder_price_valid_until %}</p>
   </div>
 </div>

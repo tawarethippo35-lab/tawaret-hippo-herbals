@@ -4,7 +4,6 @@ description: "Traditional herbal wellness products in Trinidad and Tobago. View 
 url: "https://tawarethippo35-lab.github.io"
 baseurl: "/tawaret-hippo-herbals"
 
-# Business facts used across schema and includes
 business:
   name: "Tawaret Hippo Herbals"
   phone_display: "868-264-5784"
@@ -14,8 +13,6 @@ business:
   area_served: "Trinidad and Tobago"
   currency: "TTD"
 
-# Replace with your real published Google Form "embed" URL (Send > Embed <> > copy the src).
-# It should look like: https://docs.google.com/forms/d/e/XXXXXXX/viewform?embedded=true
 find_your_match_form_url: "https://docs.google.com/forms/d/e/1FAIpQLScYXO-WoHlOyL-P6C2Yaeh0u-g3IBIkgblZnOUaLGHqdRbI0A/viewform?embedded=true"
 
 collections:
@@ -46,6 +43,7 @@ plugins:
 exclude:
   - AGENTS.md
   - docs
+  - assets/images/README.md
   - Gemfile
   - Gemfile.lock
   - README.md

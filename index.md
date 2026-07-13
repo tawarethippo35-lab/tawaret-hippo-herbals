@@ -9,7 +9,7 @@ permalink: /
   <div class="wrap">
     <h1>Tawaret Hippo Herbals</h1>
     <p class="tagline">"Remember that the healer is in you"</p>
-    <p class="lead">Traditional herbal wellness products made in Trinidad and Tobago, rooted in routines passed down through generations. Browse the catalog, read the FAQ, or message us on WhatsApp for a personalized product match.</p>
+    <p class="lead">Traditional herbal wellness products made in Trinidad and Tobago, rooted in practices passed down through generations. Browse the catalog, read the FAQ, or message us on WhatsApp for help choosing your next step.</p>
     {% include whatsapp-cta.html label="Message us on WhatsApp" %}
   </div>
 </section>
@@ -22,7 +22,7 @@ permalink: /
     {% for product in featured %}
     <div class="card">
       {% if product.image %}
-        <img src="{{ product.image | relative_url }}" alt="{{ product.title }}">
+        <a href="{{ product.url | relative_url }}" aria-label="View {{ product.title }}"><img src="{{ product.image | relative_url }}" alt="{{ product.title }}" loading="lazy"></a>
       {% else %}
         <div class="card-photo-placeholder">Photo coming soon</div>
       {% endif %}
@@ -37,7 +37,7 @@ permalink: /
 
 <section class="wrap">
   <h2 class="section-title">Not sure what to choose?</h2>
-  <p class="section-sub">Tell us what brought you here, and we'll follow up personally on WhatsApp with a product recommendation suited to you.</p>
+  <p class="section-sub">Use the free form for a general product recommendation. Personalized guidance based on your health history, several concerns, medications, reports, or test results requires the TT$250 consultation.</p>
   <a class="btn btn-whatsapp" href="{{ '/find-your-match/' | relative_url }}">Get a Product Recommendation</a>
 </section>
 
@@ -46,8 +46,8 @@ permalink: /
     <h2 class="section-title">WhatsApp 1-on-1 Consultation</h2>
     <p class="price-tag">Consultation Fee: TT$250</p>
     <p>Need personal guidance before choosing a product? Book a WhatsApp 1-on-1 consultation with Tawaret Hippo Herbals.</p>
-    <p>After payment is confirmed, you will receive the correct consultation intake form. Once the form is completed, your consultation time will be arranged by WhatsApp.</p>
-    <p>Best for customers who want personal guidance with product selection, wellness routines, or choosing where to start.</p>
+    <p>Payment is required first. After payment is confirmed, you will receive the consultation intake form. Once the completed form is received, your consultation will be booked within 24–48 hours.</p>
+    <p>Personalized product selection, wellness guidance, health-history review, and medical-report review belong in the paid consultation.</p>
     <a
       class="btn btn-whatsapp"
       href="{{ site.business.whatsapp_link }}?text={{ 'Hi Tawaret Hippo Herbals, I would like to book a WhatsApp 1-on-1 consultation.' | url_encode }}"
