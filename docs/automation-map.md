@@ -99,7 +99,7 @@ No automatic social publishing workflow should be marked active until it has bee
 
 1. Live website customer-journey audit: completed 2026-07-13.
 2. Priority conversion and accessibility corrections: completed and published 2026-07-13.
-3. Review and approve the internal Sales Assistant on the live site.
+3. Internal Sales Assistant review, human-review correction, and approval: completed 2026-07-13.
 4. Connect the Sales Assistant to the existing Tawaret lead sheet through a Make.com webhook.
 5. Test lead creation, duplicate handling, status, and follow-up fields with fake data.
 6. Build the content organization and repurposing workflow.
