@@ -1,6 +1,15 @@
+{% assign whatsapp_message = include.message | default: site.business.whatsapp_text_ordering %}
 <a
   class="btn btn-whatsapp"
-  href="{{ site.business.whatsapp_link }}?text={{ site.business.whatsapp_text_ordering | url_encode }}"
+  href="{{ site.business.whatsapp_link }}?text={{ whatsapp_message | strip | url_encode }}"
   target="_blank"
   rel="noopener"
+  {% if include.promo_valid_until %}
+  data-product-order-link
+  data-product-name="{{ include.product_name | escape }}"
+  data-product-size="{{ include.product_size | escape }}"
+  data-promo-price="{{ include.promo_price }}"
+  data-regular-price="{{ include.regular_price }}"
+  data-promo-valid-until="{{ include.promo_valid_until }}"
+  {% endif %}
 >{% if include.label %}{{ include.label }}{% else %}Message us on WhatsApp{% endif %}</a>
