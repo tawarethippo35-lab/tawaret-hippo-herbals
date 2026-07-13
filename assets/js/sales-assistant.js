@@ -157,9 +157,10 @@
     if (similarScores) reasons.push('multiple categories have similar evidence');
     if (isFallback || !inquiry.trim()) reasons.push('inquiry is unclear');
     if (category === 'General Question' && !evidence['General Question'].score) reasons.push('factual answer cannot be safely confirmed automatically');
+    if (!reasons.length) reasons.push('all prepared responses require human review before use');
 
     return {
-      required: reasons.length > 0,
+      required: true,
       reasons: reasons
     };
   }
