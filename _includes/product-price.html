@@ -1,0 +1,20 @@
+{% assign priced_product = include.product %}
+{% if priced_product.preorder_price_numeric and priced_product.preorder_price_valid_until %}
+<div
+  class="product-price"
+  data-promo-price
+  data-promo-price-value="{{ priced_product.preorder_price_numeric }}"
+  data-regular-price-value="{{ priced_product.price_numeric }}"
+  data-promo-valid-until="{{ priced_product.preorder_price_valid_until }}"
+>
+  <span class="price-tag" data-price-value>TT${{ priced_product.preorder_price_numeric }}</span>
+  <span class="product-meta" data-price-note>
+    Pre-order price through {{ priced_product.preorder_price_valid_until | date: "%B %-d, %Y" }}. Regular TT${{ priced_product.price_numeric }}.
+  </span>
+</div>
+{% else %}
+<div class="product-price">
+  <span class="price-tag">TT${{ priced_product.price_numeric }}</span>
+  {% if priced_product.price_note %}<span class="product-meta">{{ priced_product.price_note }}</span>{% endif %}
+</div>
+{% endif %}
