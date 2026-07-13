@@ -23,7 +23,7 @@ Already in place, resized and compressed for web (all under 150KB):
 - `products/tumor-eliminator-creme.jpg`
 - `products/kidney-liver-package.jpg`
 - `products/kidney-liver-combo.jpg`
-- `products/hsv-wellness-protocol.jpg`
+- `products/colloidal-silver-healing-oil-magnesium-bundle.jpg`
 - `products/kidney-flush.jpg` (cropped from the two-bottle package photo; swap for a dedicated single-bottle shot later if you get one)
 - `products/liver-flush.jpg` (cropped from the two-bottle package photo; swap for a dedicated single-bottle shot later if you get one)
 - `products/daily-balance-tonic-cranberry.jpg` (cropped from the two-flavor photo)

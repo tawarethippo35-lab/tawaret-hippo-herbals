@@ -39,9 +39,9 @@ Then open `http://localhost:4000`.
 
 This product isn't in the `tawaret-product-catalog` reference material (the "12 confirmed products" list). You confirmed it directly in this conversation on 2026-07-09: 450 ml bottles, Cranberry and Lime flavors, sold by the case at TT$400 for 10 bottles or TT$760 for 20. If you're keeping that reference catalog up to date elsewhere, worth adding it there too so other tools/sessions know about it.
 
-## A note on Colloidal Silver, T.E. Cream, and the three-product bundle
+## A note on Colloidal Silver, T.E. Cream, and the three-product protocol
 
-The site currently includes Colloidal Silver, T.E. Cream, and the Colloidal Silver, Healing Oil & Magnesium Bundle as public product pages. Their public copy must remain limited to approved product facts and ordering information. If Nyla later decides to remove them from indexed content:
+The site currently includes Colloidal Silver, T.E. Cream, and the Colloidal Silver, Healing Oil and Magnesium Protocol as public product pages. Their public copy must remain limited to the benefits, uses, customer results, sales information, and safety boundaries explicitly approved by Nyla. If Nyla later decides to remove them from indexed content:
 
 - Delete or add `noindex: true` to the three product pages and the Colloidal Silver explainer post.
 - `noindex: true` in a page's front matter removes it from search indexing (see `404.html` for an example) without deleting the page.
@@ -49,8 +49,8 @@ The site currently includes Colloidal Silver, T.E. Cream, and the Colloidal Silv
 ## Compliance rules baked into this site
 
 - No em dashes anywhere in site copy.
-- No use of the word "support" in site copy.
-- Keep product copy limited to approved product facts and avoid medical claims.
+- Use the word "support" only where it is part of Nyla's approved benefit wording.
+- Keep product copy limited to approved product facts, flyer-based benefits, and qualified customer-result wording. Do not promise cures or guaranteed outcomes.
 - No children's dosing guidance anywhere.
 - All products are currently available by prepaid pre-order.
 - Free pickup is available at Chinapoo Road, Morvant. Extra Foods, Aranguez is also a free pickup option until August 31, 2026.
