@@ -22,8 +22,8 @@ All current products are offered by pre-order. Bank-transfer prepayment secures 
 | Kidney Flush | 2 litres | TT$275 | Standalone product. PDF instructions included. |
 | Liver Flush | 2 litres | TT$275 | Standalone product. PDF instructions included. |
 | Kidney and Liver Flush Package | Approved package | TT$600 | Includes PDF instructions and a 14-day blood-type meal-prep PDF. |
-| Kidney and Liver Flush Combo | 2 × 2 litres | TT$800 | Includes PDF instructions and a 14-day blood-type meal-prep PDF. |
-| Colloidal Silver, Healing Oil & Magnesium Bundle | Three-product bundle | TT$800 | Formerly called HSV Protocol. Does not include Kidney Flush or Liver Flush. Use the current name publicly. |
+| Kidney and Liver Flush Combo | 2 × 2 litres plus Magnesium Spray | TT$800 | Includes Magnesium Spray, PDF instructions, and a 14-day blood-type meal-prep PDF. |
+| Colloidal Silver, Healing Oil and Magnesium Protocol | Three-product protocol | TT$800 | Includes Colloidal Silver, Healing Oil, Magnesium Spray, product guidance, external-use guidance, Magnesium Spray guidance, and food and nutrition guidance based on blood type. Does not include Kidney Flush or Liver Flush. |
 | T.E. Cream | 100 g | TT$275 | Current approved renamed title. |
 
 ## Current time-limited preorder
@@ -44,8 +44,8 @@ The following prices are valid only through 2026-07-15 and must not remain activ
 - Kidney Flush instructions PDF: planned standalone price TT$150. It must not be advertised as an instant paid download until payment and delivery are technically connected and tested.
 - Liver Flush instructions PDF: planned standalone price TT$150. It must not be advertised as an instant paid download until payment and delivery are technically connected and tested.
 - Kidney and Liver Flush Package: PDF instructions and 14-day blood-type meal-prep PDF included.
-- Kidney and Liver Flush Combo: PDF instructions and 14-day blood-type meal-prep PDF included.
-- Do not state that the Colloidal Silver, Healing Oil & Magnesium Bundle includes a meal-prep guide unless Nyla explicitly confirms that inclusion.
+- Kidney and Liver Flush Combo: Magnesium Spray, PDF instructions, and 14-day blood-type meal-prep PDF included.
+- Colloidal Silver, Healing Oil and Magnesium Protocol: product guidance, external-use guidance for Healing Oil, Magnesium Spray guidance, and food and nutrition guidance based on blood type are included. Do not describe this as a 14-day meal-prep guide.
 
 ## Removed or prohibited legacy listings
 
@@ -58,7 +58,6 @@ Do not restore these as active products or inclusions without explicit approval:
 - Women’s Healing Oil
 - moonditas
 - enzyme capsules as a standalone product
-- HSV Protocol as the public bundle name
 - Tumor Eliminator as the public cream name
 
 ## Catalog change rule

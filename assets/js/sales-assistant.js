@@ -66,7 +66,7 @@
     { pattern: /\bliver flush\b/i, name: 'Liver Flush' },
     { pattern: /\bmagnesium spray\b/i, name: 'Magnesium Spray' },
     { pattern: /\b(?:T\.E\. cr[eè]me|T\.E\. cream|tumou?r eliminator cr[eè]me)\b/i, name: 'T.E. Cream' },
-    { pattern: /\b(?:HSV wellness protocol|colloidal silver,? healing oil (?:and|&) magnesium bundle)\b/i, name: 'Colloidal Silver, Healing Oil & Magnesium Bundle' }
+    { pattern: /\bcolloidal silver,? healing oil (?:and|&) magnesium (?:protocol|bundle)\b/i, name: 'Colloidal Silver, Healing Oil and Magnesium Protocol' }
   ];
 
   var TOPIC_RULES = [
@@ -99,7 +99,7 @@
     });
 
     var combinedProduct = products.find(function (name) {
-      return name === 'Colloidal Silver, Healing Oil & Magnesium Bundle' ||
+      return name === 'Colloidal Silver, Healing Oil and Magnesium Protocol' ||
         name === 'Kidney and Liver Flush Combo' ||
         name === 'Kidney and Liver Flush Package';
     });

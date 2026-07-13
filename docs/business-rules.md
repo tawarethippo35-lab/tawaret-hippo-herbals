@@ -46,7 +46,7 @@ This document is the permanent business-policy reference for website, sales, con
 
 - Customers may purchase one product at a time.
 - When a customer chooses the flush products separately, Kidney Flush is the starting product.
-- Do not mix the Colloidal Silver, Healing Oil & Magnesium Bundle with the Kidney and Liver products. They are separate offers.
+- Do not mix the Colloidal Silver, Healing Oil and Magnesium Protocol with the Kidney and Liver products. They are separate offers.
 - Approved order-boundary wording: “If no response is received within 24 hours, the order request will be closed and further communication on this order will end.”
 - Customer outreach target: 20–30 messages per day.
 - Use “Hi” or “Hello,” not “Good day.”
@@ -74,6 +74,14 @@ Do not use the following words in public posts unless Nyla explicitly approves t
 - cure, reverse, eliminate, shrink, dissolve, fix, repair
 
 Product names that contain an otherwise restricted term must use the current approved renamed product title in `docs/product-catalog.md`.
+
+### Approved product-description exception, 2026-07-13
+
+- Nyla explicitly approved the benefit, use, customer-result, and sales information shown on the current product flyers for the corresponding product pages.
+- The protocol wording must use “antiviral, antibacterial, and microbial defense” instead of naming a specific condition.
+- This approval applies only to the corresponding product descriptions. It is not blanket approval to use restricted health wording in unrelated posts or promotions.
+- Magnesium Spray may explain magnesium's role in normal heart rhythm and that customers use the spray when settling down for sleep. It must not promise to treat an abnormal heartbeat or a sleep disorder.
+- Existing website product names must remain unchanged except for the specifically approved Colloidal Silver, Healing Oil and Magnesium Protocol name.
 
 ## Content and conversion structure
 
