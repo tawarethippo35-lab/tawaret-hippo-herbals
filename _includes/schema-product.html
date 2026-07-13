@@ -10,6 +10,27 @@
     "@type": "Brand",
     "name": "{{ site.business.name }}"
   },
+  {% if page.preorder_price_numeric and page.preorder_price_valid_until %}
+  "offers": [
+    {
+      "@type": "Offer",
+      "url": "{{ page.url | absolute_url }}",
+      "priceCurrency": "{{ site.business.currency }}",
+      "price": "{{ page.preorder_price_numeric }}",
+      "priceValidUntil": "{{ page.preorder_price_valid_until }}",
+      "availability": "https://schema.org/{% if page.availability == 'Pre-order' %}PreOrder{% else %}InStock{% endif %}",
+      "itemCondition": "https://schema.org/NewCondition"
+    },
+    {
+      "@type": "Offer",
+      "url": "{{ page.url | absolute_url }}",
+      "priceCurrency": "{{ site.business.currency }}",
+      "price": "{{ page.price_numeric }}",
+      "availability": "https://schema.org/{% if page.availability == 'Pre-order' %}PreOrder{% else %}InStock{% endif %}",
+      "itemCondition": "https://schema.org/NewCondition"
+    }
+  ]
+  {% else %}
   "offers": {
     "@type": "Offer",
     "url": "{{ page.url | absolute_url }}",
@@ -18,5 +39,6 @@
     "availability": "https://schema.org/{% if page.availability == 'Pre-order' %}PreOrder{% else %}InStock{% endif %}",
     "itemCondition": "https://schema.org/NewCondition"
   }
+  {% endif %}
 }
 </script>

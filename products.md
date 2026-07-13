@@ -20,7 +20,7 @@ permalink: /products/
       {% endif %}
       <h3><a href="{{ product.url | relative_url }}">{{ product.title }}</a></h3>
       <p class="product-meta"><strong>{{ product.availability }}</strong> &middot; {{ product.size }} &middot; {{ product.product_type }}</p>
-      <span class="price-tag">TT${{ product.price_numeric }}</span>
+      {% include product-price.html product=product %}
     </div>
     {% endfor %}
   </div>
