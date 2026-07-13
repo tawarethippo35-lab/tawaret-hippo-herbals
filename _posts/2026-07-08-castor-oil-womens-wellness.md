@@ -1,26 +1,26 @@
 ---
-title: "Castor Oil for Women's Wellness: A Traditional Trinidad Routine Explained"
-description: "How castor oil fits into traditional women's external body care practices in Trinidad and Tobago."
+title: "Castor Oil for Women's Wellness: Traditional External Uses Explained"
+description: "How food-grade, hexane-free castor oil is used for hair, scalp, brows, skin, and castor oil packs."
 ---
 
-Castor oil has a long history in Caribbean households, passed from mother to daughter as part of everyday body care. In Trinidad and Tobago, it appears in hair, skin, and general external body care practices. Here is a plain explanation of its traditional uses.
+Castor oil has a long history in Caribbean households as a versatile hair, skin, and external body care oil. Tawaret Hippo Herbals Castor Oil is food-grade and hexane-free, but this website does not provide internal-use instructions.
 
-## What is castor oil traditionally used for in women's wellness routines?
+## Why do customers choose castor oil?
 
-Castor oil is a thick, plant-derived oil traditionally used externally for hair, skin, massage, and general body care. These are cultural practices passed down through generations, not medical guidance.
+Customers use it to moisturize dry skin and scalp, soften hair, seal in moisture, care for brows, and prepare castor oil packs. It can be used as needed on the hair, scalp, brows, or skin.
 
-## How do Trinidadian women typically use castor oil?
+## How do Trinidadian women use castor oil?
 
-Common traditional patterns include working a small amount into the scalp and hair before bed, massaging it onto dry patches of skin, and using it as part of a weekly self-care routine. Some households keep a bottle for hair, a bottle for skin, and treat it as a routine staple the same way they'd keep coconut oil or cocoa butter on hand. There's no single "correct" way. Most people build it into whatever routine already works for them.
+Common practices include working a small amount into the scalp and hair, applying it to dry areas of skin, caring for brows, and using it for castor oil packs. Individual skin and hair needs vary.
 
-## Is castor oil safe to use every day?
+## What should I know before external use?
 
-Castor oil is for external use only. Do a small patch test first and stop use if your skin reacts. If you are pregnant, nursing, taking medication, or have personal medical questions, speak with a qualified healthcare professional before use.
+Do a small patch test first and stop use if your skin reacts. If you are pregnant, nursing, taking medication, or have personal medical questions, speak with a qualified healthcare professional before use.
 
 ## What's the difference between the 240 ml and 1 litre sizes?
 
-The [240 ml bottle]({{ '/products/castor-oil-240ml/' | relative_url }}) is a good starting size if you're trying castor oil for the first time. The [1 litre bottle]({{ '/products/castor-oil-1l/' | relative_url }}) is for people who already use it regularly and want a longer-lasting supply, so they're not reordering every few weeks.
+The [240 ml bottle]({{ '/products/castor-oil-240ml/' | relative_url }}) is a practical starting size. The [1 litre bottle]({{ '/products/castor-oil-1l/' | relative_url }}) is for customers who use castor oil regularly and want a longer-lasting supply.
 
 ## Where can I get castor oil in Trinidad and Tobago?
 
-Tawaret Hippo Herbals carries both sizes of castor oil. Message us on WhatsApp to ask a brief question or place a pre-order.
+Tawaret Hippo Herbals carries both sizes by prepaid pre-order. Message us on WhatsApp to place your pre-order.
