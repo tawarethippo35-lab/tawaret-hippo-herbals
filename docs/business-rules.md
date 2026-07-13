@@ -25,11 +25,13 @@ This document is the permanent business-policy reference for website, sales, con
 ## Pickup and fulfilment
 
 - Approved pickup wording: Chinapoo Road, Morvant.
-- Approved alternate pickup wording: Extra Foods, Aranguez.
+- Extra Foods, Aranguez is also a free pickup option until 2026-08-31.
+- Do not describe Extra Foods, Aranguez as delivery or a handoff.
 - Do not mention TTPOST unless Nyla confirms it for the specific task.
-- Bank transfer secures an order.
-- The customer sends the payment screenshot, then the pickup time is arranged.
-- Do not promise stock, pickup times, delivery, or dispatch before Nyla confirms them.
+- All products are currently offered by pre-order so payment is received before products are ordered or prepared for sale.
+- Bank-transfer prepayment secures a pre-order.
+- The customer sends the payment screenshot. Pickup is arranged when the order is ready.
+- Do not promise stock, preparation dates, pickup times, delivery, or dispatch before Nyla confirms them.
 
 ## Consultation boundary
 

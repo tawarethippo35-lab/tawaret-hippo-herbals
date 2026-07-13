@@ -32,6 +32,7 @@
       { pattern: /\b(?:buy|purchase|reserve)\b/i, weight: 6, reason: 'purchase intent detected' },
       { pattern: /\bplace (?:an |the |my )?order\b|\bhow do I place (?:an |the )?order\b/i, weight: 7, reason: 'customer asked to place an order' },
       { pattern: /\b(?:want|need|would like)\b.{0,40}\b(?:bottle|bottles|product|products)\b/i, weight: 5, reason: 'customer requested one or more products' },
+      { pattern: /\b(?:want|need|would like)\b.{0,80}\b(?:chlorophyll|castor|colloidal|tonic|oil|flush|spray|cream|bundle)\b/i, weight: 5, reason: 'customer requested a named product' },
       { pattern: /\bpayment details?\b.{0,30}\border\b|\border\b.{0,30}\bpayment details?\b/i, weight: 5, reason: 'payment details requested for an order' }
     ],
     'Pickup': [
@@ -54,17 +55,18 @@
   };
 
   var PRODUCT_RULES = [
-    { pattern: /\bkidney and liver flush (?:combo|package)\b/i, name: 'Kidney and Liver Flush' },
+    { pattern: /\bkidney and liver flush combo\b/i, name: 'Kidney and Liver Flush Combo' },
+    { pattern: /\bkidney and liver flush package\b/i, name: 'Kidney and Liver Flush Package' },
     { pattern: /\bchlorophyll water\b/i, name: 'Chlorophyll Water' },
     { pattern: /\bcastor oil\b/i, name: 'Castor Oil' },
-    { pattern: /\bcolloidal silver(?: solution)?\b/i, name: 'Colloidal Silver Solution' },
+    { pattern: /\bcolloidal silver(?: solution)?\b/i, name: 'Colloidal Silver' },
     { pattern: /\bdaily balance tonic\b/i, name: 'Daily Balance Tonic' },
     { pattern: /\bhealing oil\b/i, name: 'Healing Oil' },
     { pattern: /\bkidney flush\b/i, name: 'Kidney Flush' },
     { pattern: /\bliver flush\b/i, name: 'Liver Flush' },
     { pattern: /\bmagnesium spray\b/i, name: 'Magnesium Spray' },
-    { pattern: /\b(?:T\.E\. cr[eè]me|tumou?r eliminator cr[eè]me)\b/i, name: 'T.E. Crème' },
-    { pattern: /\bHSV wellness protocol\b/i, name: 'HSV Wellness Protocol' }
+    { pattern: /\b(?:T\.E\. cr[eè]me|T\.E\. cream|tumou?r eliminator cr[eè]me)\b/i, name: 'T.E. Cream' },
+    { pattern: /\b(?:HSV wellness protocol|colloidal silver,? healing oil (?:and|&) magnesium bundle)\b/i, name: 'Colloidal Silver, Healing Oil & Magnesium Bundle' }
   ];
 
   var TOPIC_RULES = [
@@ -96,7 +98,15 @@
       return rule.name;
     });
 
-    if (products.length) return products.join(', ');
+    var combinedProduct = products.find(function (name) {
+      return name === 'Colloidal Silver, Healing Oil & Magnesium Bundle' ||
+        name === 'Kidney and Liver Flush Combo' ||
+        name === 'Kidney and Liver Flush Package';
+    });
+    if (combinedProduct) return combinedProduct;
+    if (products.length) return products.filter(function (name, index) {
+      return products.indexOf(name) === index;
+    }).join(', ');
 
     var topics = TOPIC_RULES.filter(function (rule) {
       return rule.pattern.test(inquiry);
@@ -163,11 +173,11 @@
   function getPreparedResponse(category, customerName) {
     var name = customerName && customerName.trim() ? customerName.trim() : 'there';
     var responses = {
-      'Order': 'Hello ' + name + ', thank you for messaging Tawaret Hippo Herbals. Please confirm the product name and quantity you would like. I will check availability and confirm the total cost. Orders are secured by online bank transfer, and pickup arrangements are confirmed after the payment screenshot is received.',
-      'Re-order': 'Hello ' + name + ', welcome back. Please confirm the product and quantity you would like to reorder, along with your preferred pickup option. Pickup can be arranged at Chinapoo Road, Morvant, or Extra Foods, Aranguez. I will confirm availability and the total cost before payment.',
-      'Pickup': 'Hello ' + name + '. Pickup can be arranged at Chinapoo Road, Morvant, or Extra Foods, Aranguez. Please confirm the product or order and your preferred pickup location. The pickup time will be arranged after payment is confirmed.',
+      'Order': 'Hello ' + name + ', thank you for messaging Tawaret Hippo Herbals. All products are currently available by pre-order. Please confirm the product name and quantity you would like. I will confirm the total cost and bank-transfer details. Your pre-order is secured after your payment screenshot is received, and pickup is arranged when the order is ready.',
+      'Re-order': 'Hello ' + name + ', welcome back. Please confirm the product and quantity you would like to pre-order again. Free pickup is available at Chinapoo Road, Morvant. Extra Foods, Aranguez is also a free pickup option until August 31, 2026. I will confirm the total cost and payment details.',
+      'Pickup': 'Hello ' + name + '. Free pickup is available at Chinapoo Road, Morvant. Extra Foods, Aranguez is also a free pickup option until August 31, 2026. Please confirm your pre-order and preferred pickup location. Pickup is arranged when the prepaid order is ready.',
       'Product Recommendation': 'Hello ' + name + '. You can complete the free Product Recommendation Form here:\n\n' + RECOMMENDATION_FORM_URL + '\n\nAfter you submit the form, I will review your answers and follow up with you on WhatsApp. This basic product match is separate from the TT$250 personal consultation.',
-      'General Question': 'Hello ' + name + '. Thank you for your question. I will confirm the correct information for you. General questions about products, listed prices, sizes, payment, pickup, and how to order are answered free of charge. Personal guidance based on health history, medical reports, or a detailed plan requires the TT$250 consultation.',
+      'General Question': 'Hello ' + name + '. Thank you for your question. I will confirm the correct information for you. General questions about products, listed prices, sizes, pre-orders, payment, pickup, and how to order are answered free of charge. Personal guidance based on health history, medical reports, or a detailed plan requires the TT$250 consultation.',
       'Paid Consultation': 'Hello ' + name + '. Personal guidance is provided through the TT$250 WhatsApp 1-on-1 consultation. After payment is confirmed, I will send the consultation intake form. Once the form is completed, your consultation time will be arranged within 24–48 hours. Please let me know when you are ready for the payment details.'
     };
     return responses[category];

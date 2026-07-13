@@ -1,6 +1,6 @@
 ---
-title: "Colloidal Silver Solution"
-description: "Colloidal Silver Solution, 25 PPM, 250 ml, TT$400. A traditional wellness product from Tawaret Hippo Herbals, Trinidad and Tobago."
+title: "Colloidal Silver"
+description: "Colloidal Silver, 25 PPM, 250 ml, TT$400. Product details and pre-order information from Tawaret Hippo Herbals, Trinidad and Tobago."
 size: "250 ml / 8 oz, 25 PPM"
 product_type: "Traditional wellness product"
 sku: "THH-CLS-250"
@@ -8,8 +8,8 @@ price_numeric: 400
 image: "/assets/images/products/colloidal-silver.jpg"
 ---
 
-Colloidal Silver Solution is a traditional wellness product tested at 25 PPM.
+This Colloidal Silver product is supplied in a 250 ml bottle and tested at 25 PPM.
 
-Customers commonly ask about colloidal silver for immune wellness, skin concerns, intimate wellness routines, mouth and throat care, and general body defense. It is often chosen by customers who prefer a simple traditional wellness product to keep on hand.
+This page provides product identification, size, concentration, price, and pre-order information only. For personal-use or medical questions, speak with a qualified healthcare professional.
 
 Keep out of reach of children. Store at room temperature, away from sunlight.

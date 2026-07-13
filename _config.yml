@@ -1,6 +1,6 @@
 title: Tawaret Hippo Herbals
 tagline: "Remember that the healer is in you"
-description: "Traditional herbal wellness products in Trinidad and Tobago. Chlorophyll water, castor oil, colloidal silver, kidney and liver flushes, and more. Order by WhatsApp."
+description: "Traditional herbal wellness products in Trinidad and Tobago. View current prices and place a prepaid pre-order through WhatsApp."
 url: "https://tawarethippo35-lab.github.io"
 baseurl: "/tawaret-hippo-herbals"
 
@@ -10,7 +10,7 @@ business:
   phone_display: "868-264-5784"
   phone_e164: "+18682645784"
   whatsapp_link: "https://wa.me/18682645784"
-  whatsapp_text_ordering: "Hi Tawaret Hippo Herbals, I'd like to place an order."
+  whatsapp_text_ordering: "Hi Tawaret Hippo Herbals, I'd like to place a pre-order."
   area_served: "Trinidad and Tobago"
   currency: "TTD"
 
@@ -29,6 +29,7 @@ defaults:
       type: "products"
     values:
       layout: "product"
+      availability: "Pre-order"
   - scope:
       path: ""
       type: "posts"
@@ -43,6 +44,8 @@ plugins:
   - jekyll-sitemap
 
 exclude:
+  - AGENTS.md
+  - docs
   - Gemfile
   - Gemfile.lock
   - README.md

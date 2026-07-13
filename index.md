@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Traditional Herbal Wellness Products in Trinidad and Tobago
-description: "Tawaret Hippo Herbals offers traditional herbal wellness products in Trinidad and Tobago, including chlorophyll water, castor oil, colloidal silver, and kidney and liver flushes. Order by WhatsApp."
+description: "Tawaret Hippo Herbals offers traditional herbal wellness products by prepaid pre-order in Trinidad and Tobago. View current prices and order through WhatsApp."
 permalink: /
 ---
 
@@ -16,7 +16,7 @@ permalink: /
 
 <section class="wrap">
   <h2 class="section-title">Shop the catalog</h2>
-  <p class="section-sub">A full range of traditional wellness products, priced in TT$.</p>
+  <p class="section-sub">All products are currently available by pre-order. Prepayment secures your order.</p>
   <div class="grid grid-3">
     {% assign featured = site.products | sort: "price_numeric" %}
     {% for product in featured %}
@@ -27,7 +27,7 @@ permalink: /
         <div class="card-photo-placeholder">Photo coming soon</div>
       {% endif %}
       <h3><a href="{{ product.url | relative_url }}">{{ product.title }}</a></h3>
-      <p class="product-meta">{{ product.size }}</p>
+      <p class="product-meta"><strong>{{ product.availability }}</strong> &middot; {{ product.size }}</p>
       <span class="price-tag">TT${{ product.price_numeric }}</span>
     </div>
     {% endfor %}
@@ -76,16 +76,16 @@ permalink: /
   <h2 class="section-title">How ordering works</h2>
   <div class="grid grid-3">
     <div class="card">
-      <h3>1. Message us</h3>
-      <p>Send a WhatsApp message to {{ site.business.phone_display }} with the product or concern you're asking about.</p>
+      <h3>1. Send your pre-order</h3>
+      <p>Send a WhatsApp message to {{ site.business.phone_display }} with the product and quantity you want.</p>
     </div>
     <div class="card">
-      <h3>2. Confirm your order</h3>
-      <p>We'll confirm product, price, and pickup details with you directly over WhatsApp.</p>
+      <h3>2. Secure your order</h3>
+      <p>We'll confirm the total and bank-transfer details. Your pre-order is secured after your payment screenshot is received.</p>
     </div>
     <div class="card">
-      <h3>3. Pickup or Aranguez handoff</h3>
-      <p>Free pickup is available in Morvant by appointment only. Free delivery to Extra Foods, Aranguez is available for a limited time only.</p>
+      <h3>3. Arrange pickup</h3>
+      <p>Pickup is arranged when your order is ready. Free pickup is available at Chinapoo Road, Morvant. Extra Foods, Aranguez is also a free pickup option until August 31, 2026.</p>
     </div>
   </div>
 </section>

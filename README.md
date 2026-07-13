@@ -29,7 +29,7 @@ Then open `http://localhost:4000`.
 ## Content structure
 
 - `index.md` — home page
-- `products.md` + `_products/` — catalog index and 15 individual product pages (12 catalog products + the HSV Wellness Protocol bundle + Daily Balance Tonic in Cranberry and Lime)
+- `products.md` + `_products/` — catalog index and 15 individual product pages
 - `blog.md` + `_posts/` — blog index and 3 starter posts
 - `faq.html` — FAQ page with FAQPage schema
 - `reviews.md` — testimonials page, reads from `_data/testimonials.yml`
@@ -39,20 +39,21 @@ Then open `http://localhost:4000`.
 
 This product isn't in the `tawaret-product-catalog` reference material (the "12 confirmed products" list). You confirmed it directly in this conversation on 2026-07-09: 450 ml bottles, Cranberry and Lime flavors, sold by the case at TT$400 for 10 bottles or TT$760 for 20. If you're keeping that reference catalog up to date elsewhere, worth adding it there too so other tools/sessions know about it.
 
-## A note on Colloidal Silver, T.E. Crème, and the HSV Wellness Protocol
+## A note on Colloidal Silver, T.E. Cream, and the three-product bundle
 
-Your `tawaret-product-catalog` reference material has a standing rule that keeps these three off indexed/public content, because colloidal silver content was the likely trigger for a past Google Business Profile flag. When this site was built, you chose to include all three on the public site anyway (product pages, schema, and the colloidal silver blog post). That's reflected here. If you later want to pull them from indexed content instead, the fix is small:
+The site currently includes Colloidal Silver, T.E. Cream, and the Colloidal Silver, Healing Oil & Magnesium Bundle as public product pages. Their public copy must remain limited to approved product facts and ordering information. If Nyla later decides to remove them from indexed content:
 
-- Delete or `noindex: true` the three product pages (`_products/colloidal-silver.md`, `_products/tumor-eliminator-creme.md`, `_products/hsv-wellness-protocol.md`) and `_posts/2026-07-08-colloidal-silver-explainer.md`.
+- Delete or add `noindex: true` to the three product pages and the Colloidal Silver explainer post.
 - `noindex: true` in a page's front matter removes it from search indexing (see `404.html` for an example) without deleting the page.
 
 ## Compliance rules baked into this site
 
 - No em dashes anywhere in site copy.
 - No use of the word "support" in site copy.
-- Keep product copy in general wellness language and avoid disease claims.
+- Keep product copy limited to approved product facts and avoid medical claims.
 - No children's dosing guidance anywhere.
-- Free pickup is available in Morvant by appointment only. Free delivery to Extra Foods, Aranguez is available for a limited time only.
+- All products are currently available by prepaid pre-order.
+- Free pickup is available at Chinapoo Road, Morvant. Extra Foods, Aranguez is also a free pickup option until August 31, 2026.
 - The only direct call-to-action on the site is WhatsApp (`wa.me` click-to-chat links). The product recommendation form is a lead intake, not a purchase action, and it explicitly tells visitors the reply comes later by WhatsApp.
 
 Keep new content consistent with these rules, and re-check pricing against your product catalog before publishing changes, since prices change.

@@ -8,10 +8,8 @@ price_numeric: 275
 image: "/assets/images/products/liver-flush.jpg"
 ---
 
-The liver helps process what enters the body, assists with natural filtering, and plays an important role in digestion, metabolism, and internal balance.
+Liver Flush is supplied in a 2 litre bottle and provided as an 8-day herbal wellness plan.
 
-Liver Flush is a 2 litre herbal wellness product used as an 8-day plan. It is chosen by customers who want to assist the body’s natural liver function, improve their wellness habits, and follow a structured herbal routine.
-
-This product works best with proper hydration, lighter meals, and consistency during the plan.
+Follow the included instructions and keep the product stored as directed. For personal medical questions, speak with a qualified healthcare professional before use.
 
 PDF instructions included.
