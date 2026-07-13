@@ -134,7 +134,7 @@
 
   function getHumanReview(inquiry, category, confidence, evidence, isFallback) {
     var reasons = [];
-    var personalHealth = /\b(?:my diagnosis|diagnosed|my symptoms?|my condition|health history|medical reports?|medical results?|test results?|blood work|lab results?)\b/i.test(inquiry);
+    var personalHealth = /\b(?:my diagnosis|diagnosed|my symptoms?|my condition|my history|personal history|health history|several health concerns?|multiple health concerns?|medical reports?|medical results?|test results?|blood work|lab results?)\b/i.test(inquiry);
     var reports = /\b(?:medical|lab) (?:report|reports|result|results)\b|\btest results?\b|\bblood work\b/i.test(inquiry);
     var combinations = /\b(?:combine|combining|combination of)\b.{0,45}\bproducts?\b|\bproducts?\b.{0,45}\b(?:combine|combining)\b/i.test(inquiry);
     var stock = /\b(?:available|availability|in stock|stock)\b/i.test(inquiry);
