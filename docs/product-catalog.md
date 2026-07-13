@@ -4,12 +4,14 @@ Last reviewed: 2026-07-13
 
 This is the approved product, size, and price reference. Do not restore discontinued products or use older flyers as a source of truth.
 
+All current products are offered by pre-order. Bank-transfer prepayment secures the order before products are ordered or prepared for sale. Pickup is arranged when the order is ready.
+
 ## Current products and offers
 
 | Product | Size or quantity | Price (TTD) | Approved notes |
 |---|---:|---:|---|
-| Chlorophyll Water | 5 litres | TT$160 | Prepayment restock model; confirm availability before promising pickup. |
-| Chlorophyll Water Bulk Deal | 5 × 5 litres | TT$600 | Five-bottle bulk option. |
+| Chlorophyll Water | 5 litres | TT$160 | Pre-order model; confirm timing before promising pickup. |
+| Chlorophyll Water Bulk Deal | 5 × 5 litres | TT$600 | Five-bottle pre-order option. |
 | Magnesium Spray | 250 ml | TT$275 | Use this exact product name. |
 | Castor Oil | 1 litre | TT$400 | Confirm availability. |
 | Castor Oil | 240 ml | TT$150 | Confirm availability. |

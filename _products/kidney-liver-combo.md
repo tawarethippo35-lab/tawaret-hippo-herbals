@@ -1,17 +1,13 @@
 ---
 title: "Kidney and Liver Flush Combo"
-description: "Kidney and Liver Flush Combo, 2 litres, TT$700. From Tawaret Hippo Herbals, Trinidad and Tobago."
-size: "2 litres"
+description: "Kidney and Liver Flush Combo, two 2 litre bottles, TT$800. From Tawaret Hippo Herbals, Trinidad and Tobago."
+size: "2 x 2 litres"
 product_type: "Herbal wellness combo"
 sku: "THH-KLC-2L"
-price_numeric: 700
+price_numeric: 800
 image: "/assets/images/products/kidney-liver-combo.jpg"
 ---
 
-The Kidney and Liver Flush Combo is for customers who want both the kidney and liver products together as one structured wellness option.
+The Kidney and Liver Flush Combo includes one 2 litre Kidney Flush and one 2 litre Liver Flush.
 
-This combo is chosen by customers who want to assist the body’s natural filtering systems, improve their wellness habits, and follow a guided plan with both products.
-
-The kidneys help with waste filtering and fluid balance. The liver assists with processing, digestion, metabolism, and internal balance.
-
-PDF instructions and 14-day blood type meal guide included.
+PDF instructions and a 14-day blood-type meal-prep PDF are included.

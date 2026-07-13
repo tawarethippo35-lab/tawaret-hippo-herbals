@@ -8,10 +8,10 @@ price_numeric: 400
 image: "/assets/images/products/castor-oil-1l.jpg"
 ---
 
-The 1 litre Castor Oil is best for customers who already use castor oil regularly and want a longer-lasting supply.
+The 1 litre Castor Oil is for customers who already use castor oil regularly and want a longer-lasting supply.
 
-It can be used for body massage, sore muscles, circulation care, hair and scalp care, skin care, and traditional cleansing routines. Many customers choose the 1 litre size for consistent use, castor oil packs, family use, or regular body care.
+Traditional external uses include body massage, hair and scalp care, skin care, and castor oil packs. Many customers choose this size for regular or shared household use.
 
-This is a hexane-free, food-grade castor oil. Do not guess internal use. Message us on WhatsApp for guidance before using it internally, especially if pregnant, breastfeeding, taking medication, or managing a health condition.
+This is a hexane-free, food-grade castor oil. The website does not provide internal-use instructions. If you are pregnant, nursing, taking medication, or have personal medical questions, speak with a qualified healthcare professional before use.
 
 Store in a cool, dry place and keep bottle tightly closed when not in use.

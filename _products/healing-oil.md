@@ -8,8 +8,6 @@ price_numeric: 275
 image: "/assets/images/products/healing-oil.jpg"
 ---
 
-Healing Oil is an herbal oil used for external skin care and intimate-area body care.
+Healing Oil is an herbal oil for external body care.
 
-Customers commonly use Healing Oil for itching, skin irritation, cuts, minor wounds, rash, facial and body acne, warts, and as part of their HSV wellness routine. It is made for targeted topical care when the skin needs extra attention.
-
-Apply to clean skin. Avoid the eyes. Discontinue use if sensitivity occurs.
+Apply only to clean, unbroken skin. Avoid the eyes and stop use if your skin reacts. For personal medical questions, speak with a qualified healthcare professional.

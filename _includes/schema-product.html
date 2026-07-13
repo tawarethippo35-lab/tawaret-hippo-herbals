@@ -15,7 +15,7 @@
     "url": "{{ page.url | absolute_url }}",
     "priceCurrency": "{{ site.business.currency }}",
     "price": "{{ page.price_numeric }}",
-    "availability": "https://schema.org/InStock",
+    "availability": "https://schema.org/{% if page.availability == 'Pre-order' %}PreOrder{% else %}InStock{% endif %}",
     "itemCondition": "https://schema.org/NewCondition"
   }
 }

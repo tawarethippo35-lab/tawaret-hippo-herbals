@@ -8,8 +8,8 @@ price_numeric: 600
 image: "/assets/images/products/chlorophyll-water-bulk.jpg"
 ---
 
-The Chlorophyll Water Bulk Deal is for customers who already use chlorophyll water and want to save by ordering multiple bottles at once.
+The Chlorophyll Water Bulk Deal contains five 5 litre bottles for customers who prefer to pre-order several bottles together.
 
-This option is best for regular use, shared household use, or customers who do not want to reorder every few weeks. Customers often choose the bulk deal when they are trying to stay consistent with hydration, energy, red blood cell wellness, and natural body odor care.
+This option provides 25 litres in total at the approved bulk price.
 
-Keep refrigerated once opened. Message us on WhatsApp to confirm availability and arrange pickup.
+Keep refrigerated once opened. Message us on WhatsApp to place your pre-order.

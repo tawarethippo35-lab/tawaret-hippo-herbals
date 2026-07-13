@@ -8,8 +8,8 @@ price_numeric: 160
 image: "/assets/images/products/chlorophyll-water.jpg"
 ---
 
-Chlorophyll Water is a refreshing daily wellness drink for customers who want natural hydration, better energy, healthy red blood cell production, and help with natural body odor.
+Chlorophyll Water is offered in a 5 litre bottle for customers who want a simple prepared drink as part of their daily habits.
 
-Many customers choose it when they want something simple to add to their daily habits without using heavily sweetened drinks. It can be used alongside regular water intake, balanced meals, and a consistent wellness plan.
+A five-bottle bulk option is also available for customers who prefer to pre-order a larger quantity.
 
-Keep refrigerated once opened. Shake gently before use. Message us on WhatsApp if you are unsure whether the single bottle or bulk option is better for you.
+Keep refrigerated once opened. Shake gently before use. Message us on WhatsApp if you are unsure whether the single bottle or bulk option is right for your order.

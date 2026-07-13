@@ -1,13 +1,13 @@
 ---
 layout: default
 title: "Product Catalog"
-description: "The full Tawaret Hippo Herbals product catalog with TT$ prices: chlorophyll water, castor oil, magnesium spray, colloidal silver, healing oil, kidney and liver flushes, and the HSV Wellness Protocol bundle."
+description: "The full Tawaret Hippo Herbals pre-order catalog with current TT$ prices, product sizes, and WhatsApp ordering information."
 permalink: /products/
 ---
 
 <section class="wrap">
   <h1 class="section-title">Product Catalog</h1>
-  <p class="section-sub">All prices in TT$. Message us on WhatsApp to order, ask a question, or check what's in stock.</p>
+  <p class="section-sub">All products are currently available by pre-order. Prices are in TT$. Prepayment secures your order.</p>
 
   <div class="grid grid-3">
     {% assign sorted_products = site.products | sort: "price_numeric" %}
@@ -19,11 +19,11 @@ permalink: /products/
         <div class="card-photo-placeholder">Photo coming soon</div>
       {% endif %}
       <h3><a href="{{ product.url | relative_url }}">{{ product.title }}</a></h3>
-      <p class="product-meta">{{ product.size }} &middot; {{ product.product_type }}</p>
+      <p class="product-meta"><strong>{{ product.availability }}</strong> &middot; {{ product.size }} &middot; {{ product.product_type }}</p>
       <span class="price-tag">TT${{ product.price_numeric }}</span>
     </div>
     {% endfor %}
   </div>
 
-  <p style="margin-top:2rem;">{% include whatsapp-cta.html label="Message us on WhatsApp to order" %}</p>
+  <p style="margin-top:2rem;">{% include whatsapp-cta.html label="Message us on WhatsApp to pre-order" %}</p>
 </section>

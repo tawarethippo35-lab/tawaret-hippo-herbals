@@ -8,8 +8,8 @@ price_numeric: 275
 image: "/assets/images/products/magnesium-spray.jpg"
 ---
 
-Magnesium Spray is a topical body care spray made for transdermal absorption, meaning it is applied to the skin as part of a body care routine.
+Magnesium Spray is a topical body care spray applied directly to the skin as part of an external body care practice.
 
-Customers have reported using magnesium spray for relaxation, better sleep quality, better fluid circulation, muscle comfort, pain, and inflammation. Many prefer using it in the evening, after bathing, after a long workday, or after physical activity.
+Many customers prefer using it in the evening, after bathing, after a long workday, or after physical activity.
 
 Spray onto the desired area and allow it to absorb. Avoid the eyes and freshly shaved or broken skin. If tingling occurs, this may happen with topical magnesium use, especially for sensitive skin.
