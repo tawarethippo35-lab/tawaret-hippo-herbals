@@ -56,7 +56,7 @@ All prepared replies require human review. The tool must not automatically send 
 5. Status and follow-up date are updated.
 6. Nyla reviews and sends the WhatsApp reply.
 
-The website-to-Google-Sheets webhook connection is not yet complete. Do not describe automatic lead logging as live.
+A dedicated `Sales Leads` tab was created in `tawaret-whatsapp-lead-tracker` on 2026-07-13 with 14 mapped fields, validation, filtering, a frozen header, and Trinidad timezone. A fake lead passed the Sheet write/read test and was deleted afterward. The Make.com webhook and website submission connection are not yet configured, so automatic lead logging is not live.
 
 ## Consultation flow
 
@@ -100,7 +100,7 @@ No automatic social publishing workflow should be marked active until it has bee
 1. Live website customer-journey audit: completed 2026-07-13.
 2. Priority conversion and accessibility corrections: completed and published 2026-07-13.
 3. Internal Sales Assistant review, human-review correction, and approval: completed 2026-07-13.
-4. Connect the Sales Assistant to the existing Tawaret lead sheet through a Make.com webhook.
+4. Sales Leads destination tab and fake-row Sheet test: completed 2026-07-13. Make.com webhook connection remains pending.
 5. Test lead creation, duplicate handling, status, and follow-up fields with fake data.
 6. Build the content organization and repurposing workflow.
 7. Add publishing assistance only after the manual review flow is reliable.
